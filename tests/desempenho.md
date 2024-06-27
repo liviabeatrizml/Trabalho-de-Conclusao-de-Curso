@@ -1,6 +1,6 @@
 # Testes de Desempenho
 
-## Introdução
+## 💡 Introdução
 Os testes de desempenho visam identificar falhas na garantia da qualidade de um produto, procurando cobrir aspectos de desempenho que expõem o sistema a cenários específicos. 
 
 Dessa forma, foram escolhidas as ferramentas JMeter onde foi empregado os testes de carga e estresse, baseando-se nos números de usuários ativos da instituição. Análogo, a ferramenta Google Lighthouse foi aplicada para verificar aspectos de qualidade em páginas autenticadas.

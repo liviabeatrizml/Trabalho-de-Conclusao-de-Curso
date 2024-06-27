@@ -1,6 +1,6 @@
 # Testes Exploratórios
 
-## Introdução
+## 💡 Introdução
 Os testes de sistema, especialmente aqueles voltados para a interface gráfica (GUI), foram ampliados para incluir uma abordagem dinâmica conhecida como testes exploratórios. Diferente dos testes estruturados tradicionais, os testes exploratórios oferecem flexibilidade, permitindo um desenvolvimento mais livre das funcionalidades do sistema.
 
 Nesta metodologia, os testadores têm a liberdade de navegar pelas diferentes partes da aplicação de forma não linear, identificando os demais erros que os testes estruturais não identificariam.

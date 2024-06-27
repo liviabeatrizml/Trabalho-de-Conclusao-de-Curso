@@ -27,5 +27,6 @@ Contém todos os scripts e arquivos relacionados aos testes automatizados do sis
 
 ## 👨‍👧‍👧 Autores
 
-:man_teacher: Orientador: [Alysson Filgueira Milanez](https://github.com/alyssonfm).</br>
-:woman_student: Discente: [Lívia Beatriz Maia de Lima](https://github.com/liviabeatrizml).
+👨‍🏫 Orientador: [Alysson Filgueira Milanez](https://github.com/alyssonfm).
+
+👩‍🎓 Discente: [Lívia Beatriz Maia de Lima](https://github.com/liviabeatrizml).

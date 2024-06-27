@@ -1,6 +1,6 @@
 # Testes de Responsividade
 
-## Introdução
+## 💡 Introdução
 
 Os testes de responsividade nas páginas web visam verificar a capacidade do sistema em se adaptar a diferentes tamanhos de tela. Os padrões de tamanho estabelecidos para este propósito são:
 
