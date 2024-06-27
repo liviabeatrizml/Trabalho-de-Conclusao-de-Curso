@@ -107,7 +107,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Login Desktop](../imgs/tela-login-desktop.png)
+<img src="../imgs/tela-login-desktop.png" alt="Tela Login Desktop">
 </div>
 </details>
 
@@ -116,7 +116,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Login Tablet](../imgs/tela-login-tablet.png)
+<img src="../imgs/tela-login-tablet.png" alt="Tela Login Tablet">
 </div>
 </details>
 
@@ -125,7 +125,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Login Mobile](../imgs/tela-login-mobile.png)
+<img src="../imgs/tela-login-mobile.png" alt="Tela Login Mobile">
 </div>
 </details>
 
