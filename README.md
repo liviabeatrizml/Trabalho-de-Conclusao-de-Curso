@@ -20,7 +20,7 @@ Contém todos os documentos elaborados no trabalho desde os planejamento dos tes
 ## [Testes](/tests/introducao.md)
 Esta seção aborda o planejamento e descrição dos testes automatizados abordados no TCC.
 
-## [Códigos-fonte](/src/)
+## [Códigos-fonte](/src/codigo-fonte.md)
 Contém todos os scripts e arquivos relacionados aos testes automatizados do sistema.
 
 ---

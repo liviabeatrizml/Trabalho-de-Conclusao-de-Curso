@@ -25,8 +25,7 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 
 ## 📊 Resultados dos Testes - Lighthouse
 
-D - Desktop
-M - Mobile
+⚠️ D para métricas em relação a Desktop e M para métricas em relação a Mobile.
 
 | Páginas | Desempenho (D)| Acessibilidade (D) | Boas Práticas (D) | SEO (D) | Desempenho (M) | Acessibilidade (M) | Boas Práticas (M) | SEO (M) |
 |--------------------|------------|----------------|---------------|-----|------------|----------------|---------------|-----|

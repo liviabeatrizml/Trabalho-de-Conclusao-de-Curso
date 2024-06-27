@@ -1,0 +1,3 @@
+Rótulo,# Amostras,Média,Mín.,Máx.,Desvio Padrão,% de Erro,Vazão,KB/s,Sent KB/sec,Média de Bytes
+Recuperar Senha,720,964,103,3926,"738,17","0,000%","147,48054","846,53","23,62","5877,7"
+TOTAL,720,964,103,3926,"738,17","0,000%","147,48054","846,53","23,62","5877,7"

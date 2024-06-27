@@ -98,7 +98,7 @@ Os testes foram realizados no seguinte ambiente:
 
 ### 🚀 Execução dos Testes
 
-Os testes foram realizados entre `02/02/2024` e `XX/XX/XXXX`, envolvendo apenas um testador a autora do trabalho.
+Os testes foram realizados entre `02/02/2024` e `22/06/2024`, envolvendo apenas um testador a autora do trabalho.
 
 Durante o período de testes, foram utilizadas as seguintes metodologias: testes de sistema, testes de desempenho, teste de responsividade e testes exploratórios. A cobertura de testes alcançou `100%` das funcionalidades principais do sistema.
 

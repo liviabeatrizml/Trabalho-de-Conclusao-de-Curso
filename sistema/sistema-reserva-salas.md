@@ -105,25 +105,22 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 <details>
 <summary>Mostrar Tela Desktop</summary>
 
-![Tela Login Desktop](/imgs/tela-login-desktop.png)
+<img src="/imgs/tela-login-desktop.png" alt="Tela Login Desktop">
+
 </details>
 
 <details>
 <summary>Tela Tablet</summary>
 
-<div style="text-align:center;">
+<img src="/imgs/tela-login-tablet.png" alt="Tela Login Tablet">
 
-![Tela Login Tablet](/imgs/tela-login-tablet.png)
-</div>
 </details>
 
 <details>
 <summary>Tela Mobile</summary>
 
-<div style="text-align:center;">
+<img src="/imgs/tela-login-mobile.png" alt="Tela Login Mobile">
 
-![Tela Login Mobile](/imgs/tela-login-mobile.png)
-</div>
 </details>
 
 ### Tela de Recuperar Senha
