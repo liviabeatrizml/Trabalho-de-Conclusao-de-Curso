@@ -14,7 +14,7 @@ O projeto está estruturado da seguinte forma:
 ## [Sistema](/sistema/sistema-reserva-salas.md)
 Esta seção fornece uma descrição detalhada do sistema, incluindo funcionalidades e telas do sistema.
 
-## [Documentação](/docs/)
+## [Documentação](/docs/documentacao.md)
 Contém todos os documentos elaborados no trabalho desde os planejamento dos testes, a nova documentação do sistema.
 
 ## [Testes](/tests/introducao.md)

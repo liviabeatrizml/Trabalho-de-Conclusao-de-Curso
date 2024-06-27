@@ -103,12 +103,9 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 **Imagens**
 <details>
-<summary>Tela Desktop</summary>
-
-<div style="text-align:center;">
+<summary>Mostrar Tela Desktop</summary>
 
 ![Tela Login Desktop](/imgs/tela-login-desktop.png)
-</div>
 </details>
 
 <details>
@@ -774,4 +771,5 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 </div>
 </details>
 
-[🔙 Voltar](/README.md)
+---
+[🔙 Voltar](../)

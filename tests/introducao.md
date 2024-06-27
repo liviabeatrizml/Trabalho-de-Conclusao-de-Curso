@@ -44,7 +44,7 @@ Porém, como todo software existe a necessidade de manutenção no sistema diant
 **⚠️ Funcionalidades não testadas e motivo:** Não serão testadas as funcionalidades de integração com o funcionamento interno, pois essas dependem da disponibilidade do código fonte diretamente, o que está fora do escopo deste trabalho.
 
 ## 🗺️ Roteiro de Teste
-Para acessar o roteiro completo dos testes realizados, clique no seguinte link: [Roteiro dos Testes](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/docs/Roteiro-Testes.pdf).
+Para acessar o roteiro completo dos testes realizados, clique no seguinte link: [Roteiro dos Testes](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/docs/Roteiro_Testes.pdf).
 
 Você também pode acessar cada roteiro individualmente em suas respectivas páginas:
 - [Teste de Sistema](../tests/sistema.md)
