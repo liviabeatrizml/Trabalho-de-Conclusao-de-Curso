@@ -59,4 +59,4 @@ Na página de visualização do calendário, a interação não se adapta de for
 Durante os testes de responsividade, a interação de busca na tela de listar salas do usuário administrador não se adapta corretamente nos dispositivos móveis. A barra de menu fica coberta pelo campo de inserção de informação, tornando difícil a navegação entre as páginas.
 
 ---
-[🔙 Voltar para a página anterior](../tests/introducao.md)
+[🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)

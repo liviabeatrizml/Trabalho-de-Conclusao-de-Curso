@@ -5,7 +5,7 @@ Os testes de desempenho visam identificar falhas na garantia da qualidade de um 
 
 Dessa forma, foram escolhidas as ferramentas JMeter onde foi empregado os testes de carga e estresse, baseando-se nos números de usuários ativos da instituição. Análogo, a ferramenta Google Lighthouse foi aplicada para verificar aspectos de qualidade em páginas autenticadas.
 
-## :gear: Ferramentas Utilizadas
+## ⚙️ Ferramentas Utilizadas
 ### Google Lighthouse
 As métricas disponibilizadas pela ferramenta permite a análise dos seguintes aspectos:
 
@@ -98,3 +98,5 @@ M - Mobile
 |                    | 1440    | 1378  | 113  | 5846 | 160,92| 0,00%     |
 
 ## 🔍 Análise - JMeter
+
+[🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)

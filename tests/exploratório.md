@@ -106,4 +106,4 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 - **Severidade do problema**: Alto - Inconsistência e incoerência dos dados.
 
 ---
-[🔙 Voltar para a página anterior](../tests/introducao.md)
+[🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)

@@ -2,7 +2,7 @@
 
 > Esta página é dedicada às ferramentas para a construção do sistema e aos testes de software. Dessa forma, haverá uma breve identificação do uso, seguida de instruções de instalação e configuração.
 
-## :gear: Ferramentas utilizadas
+## ⚙️ Ferramentas utilizadas
 
 ### Astah
 > Ferramenta para criação dos diagramas
@@ -40,6 +40,7 @@
    - Siga as instruções de instalação para o seu sistema operacional.
 
 2. **Criação do Banco de Dados:**
+
 ```sql
 CREATE DATABASE srs;
 USE srs;
@@ -180,4 +181,4 @@ ALTER TABLE reserva ADD CONSTRAINT FK_Reserva_4
 **Para o GitHub não foi realizada instalação**
 
 ---
-[🔙 Voltar para a página anterior](../tests/introducao.md)
+[🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)
