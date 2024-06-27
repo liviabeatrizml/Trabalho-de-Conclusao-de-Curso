@@ -1,5 +1,5 @@
 # Trabalho de Conclusão de Curso
-> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima - 2021010871 para a graduação do curso de Bacharel em Tecnologia da Informação. Aqui, encontram-se reunidos documentos, códigos-fonte e outros recursos para a conclusão deste estudo acadêmico. O objetivo deste espaço é oferecer acesso público a uma compilação detalhada e organizada dos esforços que contribuíram para a conclusão do trabalho.
+> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima - 2021010871 para a graduação do curso de Bacharel em Tecnologia da Informação. Aqui, encontram-se reunidos documentos, códigos-fonte e outros recursos.
 
 ## Estrutura do Repositório
 
