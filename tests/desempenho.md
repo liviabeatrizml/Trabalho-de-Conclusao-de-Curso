@@ -98,4 +98,5 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 
 ## 🔍 Análise - JMeter
 
+---
 [🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)

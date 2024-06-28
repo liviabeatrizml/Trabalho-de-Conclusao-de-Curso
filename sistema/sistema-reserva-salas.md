@@ -1,6 +1,18 @@
 # Sistema de Reserva de Salas
-## 🌐 Apresentação
 
+## 📌 Sumário
+- [🌐 Apresentação](#-apresentação)
+- [📋 Requisitos](#-requisitos)
+- [💻 Telas do Sistema](#-telas-do-sistema)
+
+## 🌐 Apresentação
+O sistema trabalhado denomina-se Sistema de Reserva de Salas (SRS), é um sistema web desenvolvido na linguagem _Java_ com propósito de simplificar o processo de agendamento de salas. Com o SRS, os servidores da UFERSA têm capacidade de efetuar reservas de salas de aulas, laboratórios e auditórios de forma simples e eficiente. Além disso, o sistema oferece a possibilidade de verificar a disponibilidade dos espaços sem necessariamente ter acesso cadastrado no sistema, facilitando o planejamento e organização das atividades acadêmicas e eventos no campus. 
+
+O sistema em questão foi registrado sob o número de processo BR512023002702-2, com validade de 50 anos no Instituto Nacional de Propriedade Industrial, em 19 de setembro de 2023, com a versão datada de 19 de agosto de 2022.
+
+⚠️ No entanto, os testes foram conduzidos em uma versão adaptada do sistema, devido às melhorias e adaptações implementadas pelo desenvolvedor até a data do trabalho.
+
+Para acessar o sistema, clique aqui: [SRS](https://srs.ufersa.edu.br/Sistema_Reserva_de_Salas/)
 
 ## 📋 Requisitos
 ### Requisitos Funcionais (RF)
@@ -67,7 +79,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Cadastro Desktop](../imgs/tela-cadastro-desktop.png)
+<img src="../imgs/tela-cadastro-desktop.png" alt="Tela Cadastro Desktop">
 </div>
 </details>
 
@@ -76,7 +88,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Cadastro Tablet](../imgs/tela-cadastro-tablet.png)
+<img src="../imgs/tela-cadastro-tablet.png" alt="Tela Cadastro Tablet">
 </div>
 </details>
 
@@ -85,7 +97,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Cadastro Mobile](../imgs/tela-cadastro-mobile.png)
+<img src="../imgs/tela-cadastro-mobile.png" alt="Tela Cadastro Mobile">
 </div>
 </details>
 
@@ -148,7 +160,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Recuperacao Desktop](../imgs/tela-recuperacao-desktop.png)
+<img src="../imgs/tela-recuperacao-desktop.png" alt="Tela Recuperacao Desktop">
 </div>
 </details>
 
@@ -157,7 +169,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Recuperacao Tablet](../imgs/tela-recuperacao-tablet.png)
+<img src="../imgs/tela-recuperacao-tablet.png" alt="Tela Recuperacao Tablet">
 </div>
 </details>
 
@@ -166,7 +178,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Recuperacao Mobile](../imgs/tela-recuperacao-mobile.png)
+<img src="../imgs/tela-recuperacao-mobile.png" alt="Tela Recuperacao Mobile">
 </div>
 </details>
 
@@ -189,7 +201,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Ativar Conta Desktop](../imgs/tela-ativarConta-desktop.png)
+<img src="../imgs/tela-ativarConta-desktop.png" alt="Tela Ativar Conta Desktop">
 </div>
 </details>
 
@@ -198,7 +210,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Ativar Conta Tablet](../imgs/tela-ativarConta-tablet.png)
+<img src="../imgs/tela-ativarConta-tablet.png" alt="Tela Ativar Conta Tablet">
 </div>
 </details>
 
@@ -207,7 +219,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Ativar Conta Mobile](../imgs/tela-ativarConta-mobile.png)
+<img src="../imgs/tela-ativarConta-mobile.png" alt="Tela Ativar Conta Mobile">
 </div>
 </details>
 
@@ -228,7 +240,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Consulta Desktop](../imgs/tela-consulta-desktop.png)
+<img src="../imgs/tela-consulta-desktop.png" alt="Tela Consulta Desktop">
 </div>
 </details>
 
@@ -237,7 +249,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Consulta Tablet](../imgs/tela-consulta-tablet.png)
+<img src="../imgs/tela-consulta-tablet.png" alt="Tela Consulta Tablet">
 </div>
 </details>
 
@@ -246,7 +258,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Consulta Mobile](../imgs/tela-consulta-mobile.png)
+<img src="../imgs/tela-consulta-mobile.png" alt="Tela Consulta Mobile">
 </div>
 </details>
 
@@ -267,7 +279,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Calendário Desktop](../imgs/tela-calendario-desktop.png)
+<img src="../imgs/tela-calendario-desktop.png" alt="Tela Calendário Desktop">
 </div>
 </details>
 
@@ -276,7 +288,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Calendário Tablet](../imgs/tela-calendario-tablet.png)
+<img src="../imgs/tela-calendario-tablet.png" alt="Tela Calendário Tablet">
 </div>
 </details>
 
@@ -285,7 +297,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Calendário Mobile](../imgs/tela-calendario-mobile.png)
+<img src="../imgs/tela-calendario-mobile.png" alt="Tela Calendário Mobile">
 </div>
 </details>
 
@@ -331,7 +343,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Home Desktop](../imgs/tela-home-desktop.png)
+<img src="../imgs/tela-home-desktop.png" alt="Tela Home Desktop">
 </div>
 </details>
 
@@ -340,7 +352,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Home Tablet](../imgs/tela-home-tablet.png)
+<img src="../imgs/tela-home-tablet.png" alt="Tela Home Tablet">
 </div>
 </details>
 
@@ -349,7 +361,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Home Mobile](../imgs/tela-home-mobile.png)
+<img src="../imgs/tela-home-mobile.png" alt="Tela Home Mobile">
 </div>
 </details>
 
@@ -373,7 +385,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Meu Perfil Desktop](../imgs/tela-meuPerfil-desktop.png)
+<img src="../imgs/tela-meuPerfil-desktop.png" alt="Tela Meu Perfil Desktop">
 </div>
 </details>
 
@@ -382,7 +394,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Meu Perfil Tablet](../imgs/tela-meuPerfil-tablet.png)
+<img src="../imgs/tela-meuPerfil-tablet.png" alt="Tela Meu Perfil Tablet">
 </div>
 </details>
 
@@ -391,7 +403,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Meu Perfil Mobile](../imgs/tela-meuPerfil-mobile.png)
+<img src="../imgs/tela-meuPerfil-mobile.png" alt="Tela Meu Perfil Mobile">
 </div>
 </details>
 
@@ -420,7 +432,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Reserva Desktop](../imgs/tela-novaReserva-desktop.png)
+<img src="../imgs/tela-novaReserva-desktop.png" alt="Tela Nova Reserva Desktop">
 </div>
 </details>
 
@@ -429,7 +441,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Reserva Tablet](../imgs/tela-novaReserva-tablet.png)
+<img src="../imgs/tela-novaReserva-tablet.png" alt="Tela Nova Reserva Tablet">
 </div>
 </details>
 
@@ -438,7 +450,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Reserva Mobile](../imgs/tela-novaReserva-mobile.png)
+<img src="../imgs/tela-novaReserva-mobile.png" alt="Tela Nova Reserva Mobile">
 </div>
 </details>
 
@@ -458,7 +470,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Minhas Reservas Desktop](../imgs/tela-minhaReserva-desktop.png)
+<img src="../imgs/tela-minhaReserva-desktop.png" alt="Tela Minhas Reservas Desktop">
 </div>
 </details>
 
@@ -467,7 +479,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Minhas Reservas Tablet](../imgs/tela-minhaReserva-tablet.png)
+<img src="../imgs/tela-minhaReserva-tablet.png" alt="Tela Minhas Reservas Tablet">
 </div>
 </details>
 
@@ -476,7 +488,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Minhas Reservas Mobile](../imgs/tela-minhaReserva-mobile.png)
+<img src="../imgs/tela-minhaReserva-mobile.png" alt="Tela Minhas Reservas Mobile">
 </div>
 </details>
 
@@ -508,7 +520,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Reserva em Lote Desktop](../imgs/tela-reservaLote-desktop.png)
+<img src="../imgs/tela-reservaLote-desktop.png" alt="Tela Reserva em Lote Desktop">
 </div>
 </details>
 
@@ -517,7 +529,8 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Reserva em Lote Tablet](../imgs/tela-reservaLote-tablet.png)
+<img src="../imgs/tela-reservaLote-tablet.png" alt="Tela Reserva em Lote Tablet">
+
 </div>
 </details>
 
@@ -526,7 +539,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Reserva em Lote Mobile](../imgs/tela-reservaLote-mobile.png)
+<img src="../imgs/tela-reservaLote-mobile.png" alt="Tela Reserva em Lote Mobile">
 </div>
 </details>
 
@@ -546,7 +559,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Todas as Reservas Desktop](../imgs/tela-todasReservas-desktop.png)
+<img src="../imgs/tela-todasReservas-desktop.png" alt="Tela Todas as Reservas Desktop">
 </div>
 </details>
 
@@ -555,7 +568,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Todas as Reservas Tablet](../imgs/tela-todasReservas-tablet.png)
+<img src="../imgs/tela-todasReservas-tablet.png" alt="Tela Todas as Reservas Tablet">
 </div>
 </details>
 
@@ -564,7 +577,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Todas as Reservas Mobile](../imgs/tela-todasReservas-mobile.png)
+<img src="../imgs/tela-todasReservas-mobile.png" alt="Tela Todas as Reservas Mobile">
 </div>
 </details>
 
@@ -584,7 +597,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Lotes Desktop](../imgs/tela-listarLotes-desktop.png)
+<img src="../imgs/tela-listarLotes-desktop.png" alt="Tela Listar Lotes Desktop">
 </div>
 </details>
 
@@ -593,7 +606,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Lotes Tablet](../imgs/tela-listarLotes-tablet.png)
+<img src="../imgs/tela-listarLotes-tablet.png" alt="Tela Listar Lotes Tablet">
 </div>
 </details>
 
@@ -602,7 +615,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Lotes Mobile](../imgs/tela-listarLotes-mobile.png)
+<img src="../imgs/tela-listarLotes-mobile.png" alt="Tela Listar Lotes Mobile">
 </div>
 </details>
 
@@ -621,7 +634,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Usuarios Desktop](../imgs/tela-listarUsuarios-desktop.png)
+<img src="../imgs/tela-listarUsuarios-desktop.png" alt="Tela Listar Usuarios Desktop">
 </div>
 </details>
 
@@ -630,7 +643,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Usuarios Tablet](../imgs/tela-listarUsuarios-tablet.png)
+<img src="../imgs/tela-listarUsuarios-tablet.png" alt="Tela Listar Usuarios Tablet">
 </div>
 </details>
 
@@ -639,7 +652,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Usuarios Mobile](../imgs/tela-listarUsuarios-mobile.png)
+<img src="../imgs/tela-listarUsuarios-mobile.png" alt="Tela Listar Usuarios Mobile">
 </div>
 </details>
 
@@ -667,7 +680,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Sala Desktop](../imgs/tela-novaSala-desktop.png)
+<img src="../imgs/tela-novaSala-desktop.png" alt="Tela Nova Sala Desktop">
 </div>
 </details>
 
@@ -676,7 +689,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Sala Tablet](../imgs/tela-novaSala-tablet.png)
+<img src="../imgs/tela-novaSala-tablet.png" alt="Tela Nova Sala Tablet">
 </div>
 </details>
 
@@ -685,7 +698,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Nova Sala Mobile](../imgs/tela-novaSala-mobile.png)
+<img src="../imgs/tela-novaSala-mobile.png" alt="Tela Nova Sala Mobile">
 </div>
 </details>
 
@@ -714,7 +727,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Editar Sala Desktop](../imgs/tela-editarSala-desktop.png)
+<img src="../imgs/tela-editarSala-desktop.png" alt="Tela Editar Sala Desktop">
 </div>
 </details>
 
@@ -723,7 +736,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Editar Sala Tablet](../imgs/tela-editarSala-tablet.png)
+<img src="../imgs/tela-editarSala-tablet.png" alt="Tela Editar Sala Tablet">
 </div>
 </details>
 
@@ -732,7 +745,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Editar Sala Mobile](../imgs/tela-editarSala-mobile.png)
+<img src="../imgs/tela-editarSala-mobile.png" alt="Tela Editar Sala Mobile">
 </div>
 </details>
 
@@ -752,7 +765,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Sala Desktop](../imgs/tela-listarSala-desktop.png)
+<img src="../imgs/tela-listarSala-desktop.png" alt="Tela Listar Sala Desktop">
 </div>
 </details>
 
@@ -761,7 +774,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Sala Tablet](../imgs/tela-listarSala-tablet.png)
+<img src="../imgs/tela-listarSala-tablet.png" alt="Tela Listar Sala Tablet">
 </div>
 </details>
 
@@ -770,9 +783,9 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 <div style="text-align:center;">
 
-![Tela Listar Sala Mobile](../imgs/tela-listarSala-mobile.png)
+<img src="../imgs/tela-listarSala-mobile.png" alt="Tela Listar Sala Mobile">
 </div>
 </details>
 
 ---
-[🔙 Voltar](.../)
+[🔙 Voltar](../)

@@ -1,4 +1,5 @@
 # Relatório Técnico
+> Está página demonstrar toda a estrutura da organização do planejamento relacionados aos testes, bem como a consideração geral do trabalho.
 
 ## 📌 Sumário
 - [💡 Introdução](#-introdução)
@@ -21,8 +22,6 @@ Este documento descreve a abordagem de teste, os objetivos, o escopo, metodologi
 Fazendo a contextualização, a Universidade Federal Rural do Semi-Árido - UFERSA, disponibiliza um sistema de gerenciamento de alocação de salas, denominado de Sistema de Reservas de Salas (SRS).
 
 Assim, com a demanda a cada novo semestre pelo cadastramento das reservas de salas, foi construído um sistema para agilizar tal ação. O sistema é simples, e apenas docentes e técnicos administrativos tem acesso direto a ele, porém discentes e pessoas externas tem acesso à visualização das reservas vinculadas as salas da instituição.
-
-O SRS é um sistema web desenvolvido na linguagem _Java_ com propósito de simplificar o processo de agendamento de salas. Com o SRS, os servidores da UFERSA têm capacidade de efetuar reservas de salas de aulas, laboratórios e auditórios, por meio de uma interface gráfica.
 
 Porém, como todo software existe a necessidade de manutenção no sistema diante das novas demandas, assim, as informações dispostas a seguir tem como intuito servir como uma documentação que oferta uma visão sistemática e abrangente da execução de testes no sistema informado.
 
@@ -89,16 +88,15 @@ Os testes foram realizados no seguinte ambiente:
 	-  **Navegador da Web**: Google Chrome;
 	-  **Ambiente de Desenvolvimento Integrado (IDE)**: Eclipse IDE for Enterprise Java and Web Developers - 2023-09.
 
--  **Ferramentas**:
-	-  **Selenium**: Teste de aplicações web, automatização de interações em navegadores.
-	-  **JUnit**: Testes de comportamento e cobertura de funcionalidade.
-	-  **JMeter**: Teste de carga e estresse.
-	-  **Google Lighthouse**: Teste de performance, acessibilidade e boas práticas.
-	-  **Git e GitHub**: Hospedagem e versionamento dos códigos de testes.
+-  **Ferramentas - Versões**:
+	-  **Selenium**: 4.18.1 (Java);
+	-  **JUnit**: 4 e 5;
+	-  **JMeter**: 5.6.3;
+	-  **Google Lighthouse**: 100.0.0.4;
 
 ### 🚀 Execução dos Testes
 
-Os testes foram realizados entre `02/02/2024` e `22/06/2024`, envolvendo apenas um testador a autora do trabalho.
+Os testes foram realizados entre `26/01/2024` e `22/06/2024`, envolvendo apenas um testador a autora do trabalho.
 
 Durante o período de testes, foram utilizadas as seguintes metodologias: testes de sistema, testes de desempenho, teste de responsividade e testes exploratórios. A cobertura de testes alcançou `100%` das funcionalidades principais do sistema.
 
@@ -110,19 +108,17 @@ Os resultados foram documentados e estão disponíveis para consulta diante do r
 
 ## 📈 Análise de Resultados
 
-Os resultados dos testes trabalhados, segue os principais:
+Dessa forma, os principais resultados identificados durante o desenvolvimento do trabalho foram:
 
 - **Principais problemas identificados:**
   - **Problema 1:** Erro de validação na entrada de dados durante o registro de usuários e registro de reservas.
   - **Problema 2:** Lentidão na resposta de consultas em grande volume de dados.
   - **Problema 3:** Inconsistências na exibição da página de calendário em dispositivos móveis.
 
-- **Ações corretivas recomendadas:**
+- **Recomendações:**
   - Refinar as validações de entrada para evitar erros durante o registro.
-  - Otimizar consultas de banco de dados para melhorar a performance em cenários de alta carga.
-  - Implementar ajustes na renderização de elementos na interface para garantir consistência em todas as plataformas.
-
-- **Conclusão:** XXX
+  - Otimizar consultas de banco de dados para melhorar a performance em cenários de estresse.
+  - Implementar ajustes na renderização de elementos na interface para garantir consistência em todas as plataformas, principalmente em dispositivos mobile.
 
 ## 📝 Considerações Finais e Trabalhos Futuros
 
