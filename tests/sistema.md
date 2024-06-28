@@ -85,31 +85,31 @@ A tabela apresenta o número total de testes realizados e seu respectivo script 
 
 | Requisito | Quantidade | Script |
 |---|---|---|
-| REQ001 | 6 | [Area Cadastro](/src/teste_requisitos/AreaCadastroTest.java) |
-| REQ002 | 38 | [Conta Cadastro](/src/teste_requisitos/ContaCadastroTest.java) |
-| REQ003 | 7 | [Login](/src/teste_requisitos/LoginTest.java) |
-| REQ004 | 5 | [Recuperar Senha](/src/teste_requisitos/RecuperarSenhaTest.java) |
-| REQ005 | 14 | [Alterar Dados](/src/teste_requisitos/AlterarDadosTest.java) |
-| REQ006 | 23 | [Cadastrar Reserva](/src/teste_requisitos/CadastrarReservaTest.java) |
-| REQ007 | 4 | [Excluir Reserva](/src/teste_requisitos/ExcluirReservaTest.java) |
-| REQ008 | 1 | [Visualizar Detalhes da Reserva](/src/teste_requisitos/VisualizarReservaTest.java) |
+| REQ001 | 6 | [Area Cadastro](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/AreaCadastroTest.java) |
+| REQ002 | 38 | [Conta Cadastro](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ContaCadastroTest.java) |
+| REQ003 | 7 | [Login](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/LoginTest.java) |
+| REQ004 | 5 | [Recuperar Senha](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/RecuperarSenhaTest.java) |
+| REQ005 | 14 | [Alterar Dados](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/AlterarDadosTest.java) |
+| REQ006 | 23 | [Cadastrar Reserva](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/CadastrarReservaTest.java) |
+| REQ007 | 4 | [Excluir Reserva](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ExcluirReservaTest.java) |
+| REQ008 | 1 | [Visualizar Detalhes da Reserva](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/VisualizarReservaTest.java) |
 | REQ009 | 1 | Validação realizada manualmente |
-| REQ010 | 1 | [Listar Reserva](/src/teste_requisitos/ListarReservaTest.java) |
-| REQ011 | 1 | [Listar por Data](/src/teste_requisitos/ListarReservaPorDataTest.java) |
-| REQ012 | 1 | [Visualizar por Sala](/src/teste_requisitos/VisualizarCalendarioPorSalaTest.java) |
-| REQ013 | 18 | [Gerenciar Usuário - Editar](/src/teste_requisitos/GerenciarUsuarioEditarTest.java) <br/> [Gerenciar Usuário - Excluir](/src/teste_requisitos/GerenciarUsuarioExcluirTest.java) <br/> [Gerenciar Usuário - Listar](/src/teste_requisitos/GerenciarUsuarioListarTest.java) |
-| REQ014 | 72 | [Gerenciar Espaços - Cadastro (Bloco)](/src/teste_requisitos/GerenciarEspacosBlocoTest.java) <br/> [Gerenciar Espaços - Editar (Bloco)](/src/teste_requisitos/GerenciarEspacosBlocoEditarTest.java) <br/> [Gerenciar Espaços - Excluir (Bloco)](/src/teste_requisitos/GerenciarEspacosBlocoExcluirTest.java) <br/> [Gerenciar Espaços - Cadastrar (Sala)](/src/teste_requisitos/GerenciarEspacosSalaTest.java) <br/> [Gerenciar Espaços - Editar (Sala)](/src/teste_requisitos/GerenciarEspacosSalaEditarTest.java) <br/> [Gerenciar Espaços - Excluir (Sala)](/src/teste_requisitos/GerenciarEspacosSalaExcluirTest.java) <br/> [Gerenciar Espaços - Listar (Sala)](/src/teste_requisitos/GerenciarEspacosSalaListarTest.java) |
-| REQ015 | 30 | [Cadastrar Reserva em Lote](/src/teste_requisitos/CadastrarReservaEmLoteTest.java) |
-| REQ016 | 4 | [Excluir Reserva em Lote](/src/teste_requisitos/ExcluirReservaEmLoteTest.java) |
-| REQ017 | 1 | [Listar Todas as Reservas](/src/teste_requisitos/ListarTodasReservasTest.java) |
-| REQ018 | 1 | [Listar Reservas em Lote](/src/teste_requisitos/ListarReservasEmLoteTest.java) |
+| REQ010 | 1 | [Listar Reserva](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ListarReservaTest.java) |
+| REQ011 | 1 | [Listar por Data](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ListarReservaPorDataTest.java) |
+| REQ012 | 1 | [Visualizar por Sala](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/VisualizarCalendarioPorSalaTest.java) |
+| REQ013 | 18 | [Gerenciar Usuário - Editar](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarUsuarioEditarTest.java) <br/> [Gerenciar Usuário - Excluir](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarUsuarioExcluirTest.java) <br/> [Gerenciar Usuário - Listar](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarUsuarioListarTest.java) |
+| REQ014 | 72 | [Gerenciar Espaços - Cadastro (Bloco)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosBlocoTest.java) <br/> [Gerenciar Espaços - Editar (Bloco)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosBlocoEditarTest.java) <br/> [Gerenciar Espaços - Excluir (Bloco)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosBlocoExcluirTest.java) <br/> [Gerenciar Espaços - Cadastrar (Sala)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosSalaTest.java) <br/> [Gerenciar Espaços - Editar (Sala)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosSalaEditarTest.java) <br/> [Gerenciar Espaços - Excluir (Sala)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosSalaExcluirTest.java) <br/> [Gerenciar Espaços - Listar (Sala)](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/GerenciarEspacosSalaListarTest.java) |
+| REQ015 | 30 | [Cadastrar Reserva em Lote](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/CadastrarReservaEmLoteTest.java) |
+| REQ016 | 4 | [Excluir Reserva em Lote](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ExcluirReservaEmLoteTest.java) |
+| REQ017 | 1 | [Listar Todas as Reservas](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ListarTodasReservasTest.java) |
+| REQ018 | 1 | [Listar Reservas em Lote](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/ListarReservasEmLoteTest.java) |
 
   
 - **Extras**
 | Funcionalidade | Script |
 |---|---|
-| Ativação de Conta | [Ativar Conta](/src/teste_requisitos/AtivacaoTest.java) |
-| Sair do Sistema | [Logout](/src/teste_requisitos/LogoutTest.java) |
+| Ativação de Conta | [Ativar Conta](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/AtivacaoTest.java) |
+| Sair do Sistema | [Logout](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/LogoutTest.java) |
 
 
 Dessa forma, os principais resultados identificados durante a realização desses testes foram:
