@@ -23,8 +23,8 @@ Para abrir o documento contendo todos os casos de teste implementados, utilize `
 
 <table>
 <tr>
-<th>Before Hoisting</th>
-<th>After Hoisting</th>
+<th>@Before</th>
+<th>@After</th>
 </tr>
 <tr>
 <td>
