@@ -17,7 +17,7 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 ![Erro Barra de Menu](../imgs/[CT001]-Barra_menu.png)
 
 - **Problema identificado**: Após clicar na opção "Editar Dados", não ocorre nenhuma mudança na interface do usuário.
-- **Severidade do problema**: Alto - A funcionalidade de navegação não está funcionando conforme esperado.
+- **Severidade do problema**: Alta - A funcionalidade de navegação não está funcionando conforme esperado.
 - **Observações Adicionais**: Esse erro ocorre em todos os menus das ações do sistema, não sendo um problema isolado do menu "Editar Dados".
 
 ### [CT002] - Carregamento
@@ -87,7 +87,7 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 ![Erro Informação Incorreta no atributo de capacidade](../imgs/[CT009]-Informacao_Incorreta_atributo_capacidade.png)
 
 - **Problema identificado**: Capacidade incorreta atribuída ao Ginásio Poliesportivo.
-- **Severidade do problema**: Alto - Inconsistência e incoerência dos dados.
+- **Severidade do problema**: Alta - Inconsistência e incoerência dos dados.
 
 ### [CT010] - Informação Incorreta atributo tipo
 - **Descrição do teste**: Teste na funcionalidade de listar salas (usuário administrador) no atributo tipo.
@@ -95,7 +95,7 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 ![Erro Informação Incorreta no atributo de tipo](../imgs/[CT010]-Informacao_Incorreta_atributo_tipo.png)
 
 - **Problema identificado**: Tipo incorreto atribuído à sala "Auditório".
-- **Severidade do problema**: Alto - Inconsistência e incoerência dos dados.
+- **Severidade do problema**: Alta - Inconsistência e incoerência dos dados.
 
 ### [CT011] - Sala com status INDISPONÍVEL
 - **Descrição do teste**: Teste na funcionalidade de listar salas (usuário administrador) no atributo status.
@@ -103,7 +103,7 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 ![Erro Sala com status indisponível](../imgs/[CT011]-Sala_%20Indisponivel.png)
 
 - **Problema identificado**: Status "indisponível" atribuído à sala "Sala Indisponível" sem funcionalidade no sistema.
-- **Severidade do problema**: Alto - Inconsistência e incoerência dos dados.
+- **Severidade do problema**: Alta - Inconsistência e incoerência dos dados.
 
 ---
 [🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)

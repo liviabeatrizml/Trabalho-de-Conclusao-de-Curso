@@ -1,5 +1,5 @@
 # Trabalho de Conclusão de Curso
-> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima para a graduação do curso de Bacharel em Tecnologia da Informação orientada pelo professor doutor Alysson Filgueira Milanez.
+> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima para a graduação do curso de Bacharel em Tecnologia da Informação orientada pelo professor doutor Alysson Filgueira Milanez. Acesse o site: [TCC - Lívia](https://liviabeatrizml.github.io/Trabalho-de-Conclusao-de-Curso/).
 
 ## 🧩 Estrutura do Repositório
 

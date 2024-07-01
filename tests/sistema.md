@@ -15,7 +15,7 @@ Por outro lado, a Análise de Valor Limite apresentou desafios devido à falta d
 ## 🧩 Estrutura dos Casos de Teste
 Após a análise realizada, para os testes de sistema, foram declarados testes de caso de sucesso, em que todas as entradas e ações são executadas conforme o esperado, resultando nos resultados desejados. Análogo, são conduzidos testes de caso de fracasso, onde identificam situações em que o sistema não se comporta conforme o esperado, expondo limitações, falhas e erros na interface. Toda essa abordagem foi realizada nos requisitos funcionais do sistema.
 
-Para abrir o documento contendo todos os casos de teste implementados, utilize `Ctrl + clique` (ou `Cmd + clique` no Mac). Link do documento: [Roteiro Teste de Sistema](../docs/Casos_de_Teste_Requisitos.pdf).
+Para abrir o documento contendo todos os casos de teste implementados, utilize `Ctrl + clique` (ou `Cmd + clique` no Mac). Link do documento: [Casos de Teste Requisitos](../docs/Casos_de_Teste_Requisitos.pdf).
 
 ## 📝 Detalhamento do Teste
 
@@ -32,9 +32,10 @@ Para abrir o documento contendo todos os casos de teste implementados, utilize `
 public  void setUp() {
 	driver = new ChromeDriver();
 	js = (JavascriptExecutor) driver;
-	vars = new HashMap&ltString, Object&gt();
+	vars = new HashMap&lt;String, Object&gt;();
 	driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
 	driver.findElement(By.linkText("Cadastre-se.")).click();
+}
 </pre>
 </td>
 <td>
@@ -45,7 +46,7 @@ Statement  stmt = null;
 try {
 	conn = GerenciadorConexao.getConexao();
 	stmt = conn.createStatement();
-	stmt.executeUpdate("DELETE FROM usuario WHERE id &gt 0");
+	stmt.executeUpdate("DELETE FROM usuario WHERE id &gt; 0");
 } catch (Exception e) {
 	e.printStackTrace();
 }
@@ -106,6 +107,7 @@ A tabela apresenta o número total de testes realizados e seu respectivo script 
 
   
 - **Extras**
+
 | Funcionalidade | Script |
 |---|---|
 | Ativação de Conta | [Ativar Conta](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/src/teste_requisitos/AtivacaoTest.java) |
