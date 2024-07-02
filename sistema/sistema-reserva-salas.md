@@ -20,9 +20,9 @@ Para acessar o sistema, clique aqui: [SRS](https://srs.ufersa.edu.br/Sistema_Res
 | ID     | Descrição                                     |
 |--------|-----------------------------------------------|
 | RF001  | O sistema deve disponibilizar uma área (página) na qual os usuários possam se cadastrar. |
-| RF002  | O sistema deve permitir o cadastro de usuários, onde devem informar o nome, e-mail, matrícula, login e senha. |
+| RF002  | O sistema deve permitir o cadastro de usuários, em que devem informar o nome, e-mail, matrícula, login e senha. |
 | RF003  | O sistema deve permitir que os usuários efetuem login, para terem acesso às operações disponibilizadas. |
-| RF004  | O sistema deve permitir que os usuários efetuem a recuperação da senha, inserindo o e-mail associado no cadastrado do sistema. |
+| RF004  | O sistema deve permitir que os usuários efetuem a recuperação da senha, inserindo o e-mail associado no cadastro do sistema. |
 | RF005  | O sistema deve permitir que os usuários cadastrados alterem seus dados. |
 | RF006  | O sistema deve permitir que um usuário logado consiga cadastrar uma reserva, informando horário de início e fim, data, finalidade e espaço (sala). |
 | RF007  | O sistema deve permitir que um usuário logado exclua sua própria reserva, desde que não esteja efetivada ou em curso. |
@@ -58,7 +58,7 @@ Para acessar o sistema, clique aqui: [SRS](https://srs.ufersa.edu.br/Sistema_Res
 Extensão utilizada para captura das imagens: [DevTools Chrome](https://developer.chrome.com/docs/devtools?hl=pt-br)
 
 ### Tela de Cadastro de Usuário
-> A tela de cadastro de conta do usuário realiza o registro do usuário no sistema. Seu objetivo principal é que novos usuários se registrem no sistema, fornecendo as informações necessárias para criar uma conta e assim ter acesso as funcionalidades do sistema.
+> A tela de cadastro de conta do usuário realiza o registro do usuário no sistema. Seu objetivo principal é que novos usuários se registrem no sistema, fornecendo as informações necessárias para criar uma conta e assim ter acesso às funcionalidades do sistema.
 
 **Pré-Condições**
 - O sistema está disponível e acessível. 
@@ -68,7 +68,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 - Na tela de cadastro, o usuário é solicitado a fornecer as seguinte informações:
 	- Nome;
 	- Email;
-	- Matricula;
+	- Matrícula;
 	- Login;
 	- Senha. 
 - Após inserir as informações válidas, o usuário clica no botão "Cadastrar".
@@ -183,7 +183,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 </details>
 
 ### Tela Ativação de Conta
-> A tela de ativação de conta é disponível após inserir as credenciais de login pela primeira vez para fazer acesso ao sistema, nela é necessário fornecer o código de ativação de conta. Seu objetivo principal é de autenticação e confirmação de cadastro garantindo a ativação da conta registrada no sistema.
+> A tela de ativação de conta fica disponível após inserir as credenciais de login pela primeira vez para fazer acesso ao sistema, nela é necessário fornecer o código de ativação de conta. Seu objetivo principal é de autenticação e confirmação de cadastro garantindo a ativação da conta registrada no sistema.
 
 **Pré-Condições**
 - O sistema está disponível e acessível. 
@@ -423,7 +423,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 	- Finalidade. 
 - Após inserir as informações válidas, o usuário clica no botão "Buscar";
 - O sistema retorna as salas disponíveis para aquele dia e horário informado;
-- O usuário clica no botão "Reservar"
+- O usuário clica no botão "Reservar".
 
 **Imagens**
 
@@ -758,7 +758,7 @@ Extensão utilizada para captura das imagens: [DevTools Chrome](https://develope
 
 **Passos**
 - O usuário acessa a opção de "Sala", através do menu lateral na tela home;
-- O usuário acessa a opção "Listar Sala", após a abertura do menu expansivo;
+- O usuário acessa a opção "Listar Sala", após a abertura do menu expansivo.
 
 <details>
 <summary>Tela Desktop</summary>
