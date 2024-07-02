@@ -15,7 +15,7 @@ O repositório está estruturado da seguinte forma:
 Esta seção fornece uma descrição, incluindo funcionalidades e telas do sistema.
 
 ## [Documentação](/docs/documentacao.md)
-Contém todos os documentos elaborados no trabalho desde os planejamento dos testes, a nova documentação do sistema.
+Contém todos os documentos elaborados no trabalho desde o planejamento dos testes, à nova documentação do sistema.
 
 ## [Testes](/tests/introducao.md)
 Esta seção aborda o planejamento e descrição dos testes automatizados abordados no TCC.
