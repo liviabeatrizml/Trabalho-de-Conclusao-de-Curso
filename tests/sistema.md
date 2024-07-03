@@ -1,12 +1,12 @@
 # Testes de Sistema
 
 ## 💡 Introdução
-Os testes de sistema realizados neste estudo estão ligados à Interface Gráfica do Usuário (GUI), visando verificar as funcionalidades do sistema como um todo. Em outras palavras, se o sistema atende as expectativas dos requisitos do sistema. Os testes de sistema são realizados sob a abordagem de caixa preta, ou seja, a verificação dos resultados tem como foco o design externo do comportamento do software, sem se preocupar com o código-fonte propriamente dito. 
+Os testes de sistema realizados neste estudo estão ligados à Interface Gráfica do Usuário (GUI), visando verificar as funcionalidades do sistema como um todo. Em outras palavras, se o sistema atende às expectativas dos requisitos do sistema. Os testes de sistema são realizados sob a abordagem de caixa preta, ou seja, a verificação dos resultados tem como foco o design externo do comportamento do software, sem se preocupar com o código-fonte propriamente dito. 
 
 Dessa forma, foi escolhido validar todos os requisitos funcionais do sistema em questão. Nessa abordagem, utilizou-se a ferramenta “Eclipse IDE for Enterprise Java and Web Developers” na versão 2023–09, junto com as ferramentas Selenium e JUnit, para automatizar a realização dos testes em navegador web e automatizar a execução e cobertura do teste, respectivamente.
 
 ## 📑 Análise Pré-Teste
-Foram realizados duas análises prévias à elaboração dos casos de teste para o sistema: Particionamento por Classes de Equivalência e Análise de Valor Limite.
+Foram realizadas duas análises prévias à elaboração dos casos de teste para o sistema: Particionamento por Classes de Equivalência e Análise de Valor Limite.
 
 O Particionamento por Classes de Equivalência foi empregado para lidar com conjuntos de dados de entrada que compartilham o mesmo comportamento. Esta abordagem permitiu identificar tanto partições válidas quanto inválidas, para que posteriormente sejam implementadas na definição dos testes. A análise revelou restrições em alguns atributos, além de esclarecer os formatos aceitos.
 
