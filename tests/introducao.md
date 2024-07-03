@@ -1,5 +1,5 @@
 # Relatório Técnico
-> Está página demonstrar toda a estrutura da organização do planejamento relacionados aos testes, bem como a consideração geral do trabalho.
+> Está página demonstra toda a estrutura da organização do planejamento relacionada aos testes, bem como a consideração geral do trabalho.
 
 ## 📌 Sumário
 - [💡 Introdução](#-introdução)
@@ -21,9 +21,9 @@ Este documento descreve a abordagem de teste, os objetivos, o escopo, metodologi
 
 Fazendo a contextualização, a Universidade Federal Rural do Semi-Árido - UFERSA, disponibiliza um sistema de gerenciamento de alocação de salas, denominado de Sistema de Reservas de Salas (SRS).
 
-Assim, com a demanda a cada novo semestre pelo cadastramento das reservas de salas, foi construído um sistema para agilizar tal ação. O sistema é simples, e apenas docentes e técnicos administrativos tem acesso direto a ele, porém discentes e pessoas externas tem acesso à visualização das reservas vinculadas as salas da instituição.
+Assim, com a demanda a cada novo semestre pelo cadastro das reservas de salas, foi construído um sistema para agilizar tal ação. O sistema é simples, e apenas docentes e técnicos administrativos tem acesso direto a ele, porém discentes e pessoas externas têm acesso à visualização das reservas vinculadas às salas da instituição.
 
-Porém, como todo software existe a necessidade de manutenção no sistema diante das novas demandas, assim, as informações dispostas a seguir tem como intuito servir como uma documentação que oferta uma visão sistemática e abrangente da execução de testes no sistema informado.
+Porém, como com todo software existe a necessidade de manutenção no sistema diante das novas demandas, assim, as informações dispostas a seguir têm como intuito servir como uma documentação que oferta uma visão sistemática e abrangente da execução de testes no sistema informado.
 
 ## 📑 Plano de Teste
 **🎯 Escopo do Teste:** O teste abrangerá todas as funcionalidades principais do software, não se limitando apenas essas, mas incluindo:
@@ -59,9 +59,9 @@ Os principais objetivos dos testes realizados incluem:
 
 - Verificar a conformidade com os requisitos especificados.
 - Validar as funcionalidades esperadas do sistema.
-- Verificar os aspectos não funcional do sistema.
+- Verificar os aspectos não funcionais do sistema.
 - Identificar gargalos na interface do sistema.
-- Identificar os erros e falhas frequentes que afetam à experiência do usuário.
+- Identificar os erros e falhas frequentes que afetam a experiência do usuário.
 
 ### 📊 Estratégia de Teste
 A estratégia de teste incluiu a execução de testes de:
@@ -69,7 +69,7 @@ A estratégia de teste incluiu a execução de testes de:
 -  **Unidade**: Validar os conjuntos de dados semelhantes e limites do sistema.
 -  **Sistema**: Verificação da interação entre módulos do sistema.
 -  **Exploratório**: Verificar inconsistências não atendidas em testes com escopo fechado. 
--  **Responsividade**: Validar se o sistema atende as adaptações em diferentes dispositivos.
+-  **Responsividade**: Validar se o sistema atende às adaptações em diferentes dispositivos.
 -  **Desempenho**: Verificar a consistência do sistema em grandes cargas.
 -  **Aceitação**: Validar se o sistema atende aos critérios de aceitação do usuário, por meio de um questionário.
 
