@@ -20,23 +20,24 @@ Para acessar o sistema, clique aqui: [SRS](https://srs.ufersa.edu.br/Sistema_Res
 | ID     | Descrição                                     |
 |--------|-----------------------------------------------|
 | RF001  | O sistema deve disponibilizar uma área (página) na qual os usuários possam se cadastrar. |
-| RF002  | O sistema deve permitir o cadastro de usuários, em que devem informar o nome, e-mail, matrícula, login e senha. |
-| RF003  | O sistema deve permitir que os usuários efetuem login, para terem acesso às operações disponibilizadas. |
-| RF004  | O sistema deve permitir que os usuários efetuem a recuperação da senha, inserindo o e-mail associado no cadastro do sistema. |
+| RF002  | O sistema deve permitir o cadastro de usuários, onde devem informar o nome, e-mail, matrícula, login e senha. |
+| RF003  | O sistema deve permitir que os usuários efetuem login, para terem acesso às operações disponibilizadas. Para fazer o login, o usuário deve inserir o nome de usuário e a senha cadastrados no momento do cadastro no sistema. |
+| RF004  | O sistema deve permitir que os usuários efetuem a recuperação da senha, para poderem restaurar o acesso à conta. Para recuperar senha, o usuário deve inserir o e-mail associado no cadastrado do sistema. |
 | RF005  | O sistema deve permitir que os usuários cadastrados alterem seus dados. |
-| RF006  | O sistema deve permitir que um usuário logado consiga cadastrar uma reserva, informando horário de início e fim, data, finalidade e espaço (sala). |
-| RF007  | O sistema deve permitir que um usuário logado exclua sua própria reserva, desde que não esteja efetivada ou em curso. |
+| RF006  | O sistema deve permitir que um usuário logado consiga cadastrar uma reserva, onde deve informar o horário de início e fim da reserva, a data da reserva, a finalidade da reserva e o espaço (sala) que será reservado. |
+| RF007  | O sistema deve permitir que um usuário logado exclua uma reserva que tenha sido feita por ele, desde que a reserva ainda não tenha sido efetivada ou esteja em curso. |
 | RF008  | O sistema deve permitir que um usuário visualize os detalhes da reserva feita por ele. |
-| RF009  | O sistema deve informar via e-mail a confirmação da reserva para o usuário. |
-| RF010  | O sistema deve permitir que um usuário visualize todas as suas reservas. |
-| RF011  | O sistema deve permitir que usuários visualizem as reservas feitas em uma data específica. |
-| RF012  | O sistema deve permitir que usuários visualizem as reservas de uma sala específica por meio de um calendário. |
-| RF013  | O sistema deve permitir que um usuário administrador gerencie usuários cadastrados (listar, editar e excluir). |
-| RF014  | O sistema deve permitir que um usuário administrador gerencie salas e blocos (cadastrar, listar, editar e excluir). |
-| RF015  | O sistema deve permitir que um usuário administrador realize reservas em lote, informando data de início e fim. |
-| RF016  | O sistema deve permitir que um usuário administrador exclua reservas em lote. |
-| RF017  | O sistema deve permitir que um usuário administrador liste todas as reservas cadastradas. |
-| RF018  | O sistema deve permitir que um usuário administrador liste todas as reservas em lotes cadastradas por ele. |
+| RF009  | O sistema deve informar via e-mail para o usuário a confirmação da reserva. |
+| RF010  | O sistema deve permitir que um usuário visualize todas as reservas feitas por ele. |
+| RF011  | O sistema deve permitir que usuários cadastrados e o público em geral possam visualizar as reservas feitas no sistema, bastando informar uma data, para que todas as reservas desta data sejam exibidas. |
+| RF012  | O sistema deve permitir que usuários cadastrados e o público em geral possam visualizar as reservas feitas no sistema por meio de um calendário. Os usuários devem ser capazes de selecionar uma sala específica, bem como escolher uma data, seja ela durante a semana, mês ou ano associado àquela sala. |
+| RF013  | O sistema deve permitir que um usuário do tipo administrador realize o gerenciamento dos usuários cadastrados (listar, editar e excluir). |
+| RF014  | O sistema deve permitir que um usuário do tipo administrador realize o gerenciamento de salas e blocos (cadastrar, listar, editar e excluir).
+ |
+| RF015  | O sistema deve permitir que um usuário do tipo administrador realize várias reservas de uma vez, denominada de reserva em lote. Neste tipo de reserva o usuário deve informar, além dos dados solicitados em uma reserva convencional [RF006], uma data de início e uma data final. |
+| RF016  | O sistema deve permitir que um usuário do tipo administrador realize a exclusão das  reservas em lote de uma vez.  |
+| RF017  | O sistema deve permitir que um usuário do tipo administrador visualize/liste todas as reservas cadastradas.  |
+| RF018  | O sistema deve permitir que um usuário do tipo administrador visualize/liste todas as reservas em lotes cadastradas por ele. |
 
 ### Requisitos Não-Funcionais (RNF)
 
@@ -45,9 +46,9 @@ Para acessar o sistema, clique aqui: [SRS](https://srs.ufersa.edu.br/Sistema_Res
 | RNF001 | O sistema deve funcionar interna e externamente à rede da UFERSA. |
 | RNF002 | O sistema deve ser desenvolvido em sistema web. |
 | RNF003 | O sistema deve apresentar uma interface simples e intuitiva para o usuário. |
-| RNF004 | Para realizar o cadastro no sistema, é necessário que o usuário seja classificado como técnico-administrativo ou docente. |
+| RNF004 | Para realizar o cadastro no sistema, é necessário que o usuário seja classificado como técnico-administrativo ou docente, uma vez que esses grupos possuem a autorização para efetuar reservas de espaços dentro da universidade. |
 | RNF005 | O sistema deve criptografar a senha dos usuários para armazená-la em seu banco de dados. |
-| RNF006 | O sistema deve retornar um alerta/mensagem afirmando sucesso ou fracasso ao finalizar as operações. |
+| RNF006 | O sistema deve retornar um alerta/mensagem afirmando sucesso ou fracasso ao finalizar as operações no sistema. |
 
 ## 💻 Telas do Sistema
 **⚠️ Observações**<br>

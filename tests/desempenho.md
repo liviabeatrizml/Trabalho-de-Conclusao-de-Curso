@@ -50,6 +50,8 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 
 ## 🔍 Análise - Lighthouse
 
+A análise foi realizada diante dos relatórios gerados.
+
 ### Desktop
 
 | Gravidade | Desempenho | Acessibilidade | Boas Práticas | SEO |
@@ -71,6 +73,20 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 
 
 ## 📊 Resultados dos Testes - JMeter
+
+| Páginas          | Amostras | Média | Mediana | 90% das amostras processadas em: | 95% das amostras processadas em: | 99% das amostras processadas em: | Mín. | Max. | Desvio Padrão | % de Erro | Vazão   | KB/s  | Send KB/s | Média de Bytes |
+|------------------|----------|-------|---------|----------------------------------|----------------------------------|----------------------------------|------|------|---------------|-----------|---------|-------|-----------|----------------|
+| **Login**        | 360      | 2023  | 2093    | 2625                             | 2818                             | 3030                             | 558  | 3414 | 533,83        | 0,00%     | 104,96  | 558,89| 15,68     | 5452,8         |
+|                  | 720      | 9465  | 9294    | 10098                            | 10241                            | 10520                            | 8871 | 10573| 433,42        | 44,72%    | 67,97   | 262,61| 5,61      | 3956,4         |
+|                  | 1440     | 9990  | 9684    | 15835                            | 16493                            | 16942                            | 5927 | 16998| 2513,30       | 56,25%    | 84,45   | 329,97| 5,52      | 4001,2         |
+| **Cadastro**     | 360      | 379   | 382     | 563                              | 608                              | 719                              | 104  | 762  | 136,95        | 0,00%     | 228,86  | 1736,29| 35,54     | 7768,7         |
+|                  | 720      | 2093  | 2169    | 2977                             | 3148                             | 3471                             | 575  | 3531 | 677,91        | 17,64%    | 184,24  | 1242,73| 23,56     | 6907,2         |
+|                  | 1440     | 1365  | 983     | 3447                             | 3562                             | 3712                             | 104  | 5471 | 1128,75       | 0,00%     | 177,25  | 1344,75| 27,52     | 7768,7         |
+| **Recuperar Senha** | 360   | 278   | 264     | 334                              | 400                              | 1212                             | 106  | 1230 | 160,97        | 0,00%     | 160,07  | 918,80 | 25,64     | 5877,7         |
+|                  | 720      | 964   | 599     | 1938                             | 2262                             | 3238                             | 103  | 3926 | 738,17        | 0,00%     | 147,48  | 846,53 | 23,62     | 5877,7         |
+|                  | 1440     | 1378  | 1402    | 2346                             | 3005                             | 3333                             | 113  | 5846 | 785,24        | 0,00%     | 160,93  | 923,74 | 25,77     | 5877,7         |
+
+## 🔍 Análise - JMeter
 
 #### Login
 
@@ -95,8 +111,6 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 | **Recuperar Senha**| 360     | 278   | 106  | 1230 | 160,07| 0,00%     |
 |                    | 720     | 964   | 103  | 3926 | 147,48| 0,00%     |
 |                    | 1440    | 1378  | 113  | 5846 | 160,92| 0,00%     |
-
-## 🔍 Análise - JMeter
 
 ---
 [🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)
