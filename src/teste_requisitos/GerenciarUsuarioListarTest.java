@@ -29,7 +29,7 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.Statement;
 
-public class VisualizarCalendarioPorSalaTest {
+public class GerenciarUsuarioListarTest {
 	private WebDriver driver;
 	private Map<String, Object> vars;
 	JavascriptExecutor js;
@@ -57,6 +57,13 @@ public class VisualizarCalendarioPorSalaTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+		
+		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
+		driver.findElement(By.id("j_idt13:login")).click();
+		driver.findElement(By.id("j_idt13:login")).sendKeys("usuario_admin");
+		driver.findElement(By.id("j_idt13:senha")).click();
+		driver.findElement(By.id("j_idt13:senha")).sendKeys("admin");
+		driver.findElement(By.cssSelector(".ui-button-text")).click();
 	}
 
 	@After
@@ -77,32 +84,12 @@ public class VisualizarCalendarioPorSalaTest {
 		driver.quit();
 	}
 
-	//CASO DE SUCESSO
+	// CASO DE SUCESSO LISTAR
 	@Test
-	public void VisualizarCalendarioPorSala() throws InterruptedException {
-		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
-		driver.findElement(By.id("j_idt13:login")).click();
-		driver.findElement(By.id("j_idt13:login")).sendKeys("livia_geisa");
-		driver.findElement(By.id("j_idt13:senha")).click();
-		driver.findElement(By.id("j_idt13:senha")).sendKeys("teste");
-		driver.findElement(By.cssSelector(".ui-button-text")).click();
+	public void gerenciarUsuarioListar() throws InterruptedException {
+		driver.findElement(By.linkText("Usuários")).click();
+		Thread.sleep(5000);
 
-		Thread.sleep(1000);
-
-		{
-			WebElement element = driver.findElement(By.linkText("Reservas"));
-			Actions builder = new Actions(driver);
-			builder.moveToElement(element).perform();
-		}
-
-		driver.findElement(By.linkText("Calendário por Sala")).click();
-		driver.findElement(By.id("j_idt13:bloco")).click();
-
-		{
-			WebElement dropdown = driver.findElement(By.id("j_idt13:bloco"));
-			dropdown.findElement(By.xpath("//option[. = 'Central de Aulas I - Sala de aula 04']")).click();
-		}
-
-		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/calendario.jsf", driver.getCurrentUrl());
+		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/views/admin/list_usuarios.jsf", driver.getCurrentUrl());
 	}
 }

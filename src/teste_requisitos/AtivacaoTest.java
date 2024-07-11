@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.Dimension;
@@ -29,7 +30,9 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.Statement;
 
-public class VisualizarCalendarioPorSalaTest {
+import org.openqa.selenium.support.ui.FluentWait;
+
+public class AtivacaoTest {
 	private WebDriver driver;
 	private Map<String, Object> vars;
 	JavascriptExecutor js;
@@ -39,11 +42,11 @@ public class VisualizarCalendarioPorSalaTest {
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		vars = new HashMap<String, Object>();
-		
-		Connection conn = null;
+        
+        Connection conn = null;
         Statement stmt = null;
-       
-		try {
+        
+        try {
             conn = GerenciadorConexao.getConexao();
             stmt = conn.createStatement();
 
@@ -57,18 +60,27 @@ public class VisualizarCalendarioPorSalaTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
+		
+		driver.findElement(By.id("j_idt13:login")).click();
+	    driver.findElement(By.id("j_idt13:login")).sendKeys("usuario_inativo");
+	    
+	    driver.findElement(By.id("j_idt13:senha")).click();
+	    driver.findElement(By.id("j_idt13:senha")).sendKeys("inativo");
+	    
+	    driver.findElement(By.cssSelector(".ui-button-text")).click();
 	}
 
 	@After
 	public void tearDown() {
 		Connection conn = null;
         Statement stmt = null;
-       
 		try {
             conn = GerenciadorConexao.getConexao();
             stmt = conn.createStatement();
 
-            stmt.executeUpdate("DELETE FROM usuario WHERE id > 0");
+            stmt.executeUpdate("DELETE FROM usuario WHERE id > 0;");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -77,32 +89,53 @@ public class VisualizarCalendarioPorSalaTest {
 		driver.quit();
 	}
 
-	//CASO DE SUCESSO
+	// CASO DE SUCESSO
 	@Test
-	public void VisualizarCalendarioPorSala() throws InterruptedException {
-		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
-		driver.findElement(By.id("j_idt13:login")).click();
-		driver.findElement(By.id("j_idt13:login")).sendKeys("livia_geisa");
-		driver.findElement(By.id("j_idt13:senha")).click();
-		driver.findElement(By.id("j_idt13:senha")).sendKeys("teste");
-		driver.findElement(By.cssSelector(".ui-button-text")).click();
+	public void testAtivacao() throws InterruptedException {
+	    driver.findElement(By.id("j_idt11:codigoAtivacao")).click();
+	    driver.findElement(By.id("j_idt11:codigoAtivacao")).sendKeys("M0Y8IK9TYIHF78T");
+	    driver.findElement(By.cssSelector("#j_idt11\\3Aj_idt16 > .ui-button-text")).click();
+	    
+	    Thread.sleep(5000);
+	    
+	    assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/views/home.jsf", driver.getCurrentUrl());
+	    
+	}
 
-		Thread.sleep(1000);
+	// CASO DE FRACASSO - CÓDIGO EM ATIVAÇÃO EM BRANCO
+	@Test
+	public void codigoEmBranco() {
+	    driver.findElement(By.cssSelector("#j_idt11\\3Aj_idt16 > .ui-button-text")).click();
 
-		{
-			WebElement element = driver.findElement(By.linkText("Reservas"));
-			Actions builder = new Actions(driver);
-			builder.moveToElement(element).perform();
-		}
+		// VERIFICA SE OS ELEMENTOS ESTÃO VAZIOS
+		assertEquals("", driver.findElement(By.id("j_idt11:codigoAtivacao")).getAttribute("value"));
 
-		driver.findElement(By.linkText("Calendário por Sala")).click();
-		driver.findElement(By.id("j_idt13:bloco")).click();
+        WebElement mensagensErro = driver.findElement(By.className("ui-messages-error-summary"));
 
-		{
-			WebElement dropdown = driver.findElement(By.id("j_idt13:bloco"));
-			dropdown.findElement(By.xpath("//option[. = 'Central de Aulas I - Sala de aula 04']")).click();
-		}
+        String mensagemErro = mensagensErro.getText();
 
-		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/calendario.jsf", driver.getCurrentUrl());
+        assertEquals("Código de Ativação: Campo Obrigatório!", mensagemErro);
+	}
+	
+	// CASO DE FRACASSO - CÓDIGO ERRADO
+	@Test
+	public void codigoErrado() {
+	    driver.findElement(By.id("j_idt11:codigoAtivacao")).click();
+	    driver.findElement(By.id("j_idt11:codigoAtivacao")).sendKeys("QX5OTJB2HABCSD");
+	    driver.findElement(By.cssSelector("#j_idt11\\3Aj_idt16 > .ui-button-text")).click();
+
+        WebElement mensagensErro = driver.findElement(By.className("ui-messages-error-summary"));
+
+        String mensagemErro = mensagensErro.getText();
+
+        assertEquals("Código inválido!", mensagemErro);
+	}
+	
+	// CASO ALTERNATIVO - BOTAO CANCELAR
+	@Test
+	public void codigoCancelar() {
+	    driver.findElement(By.cssSelector("#j_idt11\\3Aj_idt15 > .ui-button-text")).click();
+
+	    assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/index.jsf", driver.getCurrentUrl());
 	}
 }

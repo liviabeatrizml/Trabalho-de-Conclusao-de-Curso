@@ -29,7 +29,7 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.Statement;
 
-public class VisualizarCalendarioPorSalaTest {
+public class RecuperarSenhaTest {
 	private WebDriver driver;
 	private Map<String, Object> vars;
 	JavascriptExecutor js;
@@ -57,6 +57,9 @@ public class VisualizarCalendarioPorSalaTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+		
+		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
+		driver.findElement(By.linkText("Recuperar.")).click();
 	}
 
 	@After
@@ -77,32 +80,54 @@ public class VisualizarCalendarioPorSalaTest {
 		driver.quit();
 	}
 
-	//CASO DE SUCESSO
+	// CASO DE SUCESSO
 	@Test
-	public void VisualizarCalendarioPorSala() throws InterruptedException {
-		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
-		driver.findElement(By.id("j_idt13:login")).click();
-		driver.findElement(By.id("j_idt13:login")).sendKeys("livia_geisa");
-		driver.findElement(By.id("j_idt13:senha")).click();
-		driver.findElement(By.id("j_idt13:senha")).sendKeys("teste");
-		driver.findElement(By.cssSelector(".ui-button-text")).click();
+	public void recuperarSenha() throws InterruptedException {
+		driver.findElement(By.id("j_idt13:email")).click();
+		driver.findElement(By.id("j_idt13:email")).sendKeys("usuario_admin@ufersa.edu.br");
+		driver.findElement(By.cssSelector("#j_idt13\\3Aj_idt19 > .ui-button-text")).click();
+		
+		Thread.sleep(5000);
+		WebElement alerta = driver.findElement(By.cssSelector(".ui-messages-info-summary"));
+		assertEquals("A nova senha foi enviada para o email do usuário!", alerta.getText());
+	}
 
-		Thread.sleep(1000);
+	// CASO DE FRACASSO - EMAIL EM BRANCO
+	@Test
+	public void recuperarSenhaEmailEmBranco() {
+		driver.findElement(By.cssSelector("#j_idt13\\3Aj_idt19 > .ui-button-text")).click();
 
-		{
-			WebElement element = driver.findElement(By.linkText("Reservas"));
-			Actions builder = new Actions(driver);
-			builder.moveToElement(element).perform();
-		}
+		WebElement alerta = driver.findElement(By.cssSelector(".ui-messages-error-summary"));
+		assertEquals("Email: Campo Obrigatório!", alerta.getText());
+	}
 
-		driver.findElement(By.linkText("Calendário por Sala")).click();
-		driver.findElement(By.id("j_idt13:bloco")).click();
+	// CASO DE FRACASSO - EMAIL NÃO CADASTRADO
+	@Test
+	public void recuperarSenhaEmailInvalido() {
+		driver.findElement(By.id("j_idt13:email")).click();
+		driver.findElement(By.id("j_idt13:email")).sendKeys("livia.lilili@ufersa.edu.br");
+		driver.findElement(By.cssSelector("#j_idt13\\3Aj_idt19 > .ui-button-text")).click();
 
-		{
-			WebElement dropdown = driver.findElement(By.id("j_idt13:bloco"));
-			dropdown.findElement(By.xpath("//option[. = 'Central de Aulas I - Sala de aula 04']")).click();
-		}
+		WebElement alerta = driver.findElement(By.cssSelector(".ui-messages-error-summary"));
+		assertEquals("E-mail não encontrado na base de dados!", alerta.getText());
+	}
 
-		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/calendario.jsf", driver.getCurrentUrl());
+	// CASO DE FRACASSO - EMAIL SEM DOMINIO @UFERSA.EDU.BR
+	@Test
+	public void recuperarSenhaEmailSemDominio() {
+		driver.findElement(By.id("j_idt13:email")).click();
+		driver.findElement(By.id("j_idt13:email")).sendKeys("livia.gegeisa@gmail.com");
+		driver.findElement(By.cssSelector("#j_idt13\\3Aj_idt19 > .ui-button-text")).click();
+
+		WebElement alerta = driver.findElement(By.cssSelector(".ui-messages-error-summary"));
+		assertEquals("O e-mail deve ter o seginte formato: xxxxxx@ufersa.edu.br", alerta.getText());
+	}
+	
+	// CASO ALTERNATIVO - BOTÃO CANCELAR
+	@Test
+	public void recuperarSenhaCancelar() {
+		driver.findElement(By.cssSelector("#j_idt13\\3Aj_idt17 > .ui-button-text")).click();
+
+		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/index.jsf", driver.getCurrentUrl());
 	}
 }

@@ -29,7 +29,7 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.Statement;
 
-public class VisualizarCalendarioPorSalaTest {
+public class VisualizarReservaTest {
 	private WebDriver driver;
 	private Map<String, Object> vars;
 	JavascriptExecutor js;
@@ -77,16 +77,16 @@ public class VisualizarCalendarioPorSalaTest {
 		driver.quit();
 	}
 
-	//CASO DE SUCESSO
+	// CASO DE SUCESSO
 	@Test
-	public void VisualizarCalendarioPorSala() throws InterruptedException {
+	public void visualizarReserva() throws InterruptedException {
 		driver.get("http://localhost:8080/Sistema_Reserva_de_Salas/");
 		driver.findElement(By.id("j_idt13:login")).click();
 		driver.findElement(By.id("j_idt13:login")).sendKeys("livia_geisa");
 		driver.findElement(By.id("j_idt13:senha")).click();
 		driver.findElement(By.id("j_idt13:senha")).sendKeys("teste");
 		driver.findElement(By.cssSelector(".ui-button-text")).click();
-
+		
 		Thread.sleep(1000);
 
 		{
@@ -94,15 +94,8 @@ public class VisualizarCalendarioPorSalaTest {
 			Actions builder = new Actions(driver);
 			builder.moveToElement(element).perform();
 		}
-
-		driver.findElement(By.linkText("Calendário por Sala")).click();
-		driver.findElement(By.id("j_idt13:bloco")).click();
-
-		{
-			WebElement dropdown = driver.findElement(By.id("j_idt13:bloco"));
-			dropdown.findElement(By.xpath("//option[. = 'Central de Aulas I - Sala de aula 04']")).click();
-		}
-
-		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/calendario.jsf", driver.getCurrentUrl());
+		
+		driver.findElement(By.linkText("Minhas Reservas")).click();
+		assertEquals("http://localhost:8080/Sistema_Reserva_de_Salas/views/list_reservas.jsf", driver.getCurrentUrl());
 	}
 }
