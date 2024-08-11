@@ -15,7 +15,7 @@ As métricas disponibilizadas pela ferramenta permite a análise dos seguintes a
 - **SEO - Search Engine Optimization**: capacidade de indexação, uso de meta tags, adaptabilidade para dispositivos móveis.
 - **PWA - Progressive Web App**: examina se o código responde corretamente, assim como o tempo de carregamento rápido em redes 3G.
 
-⚠️Os testes não incluíram medições de PWA (Progressive Web App), pois essa funcionalidade não está implementada no sistema.
+⚠️ Os testes não incluíram medições de PWA (Progressive Web App), pois essa funcionalidade não está implementada no sistema.
 
 ### JMeter
 Os cenários de carga foram definidos com base nos números de usuários ativos da instituição em abril de 2024: 1322 discentes, 79 docentes e 39 técnicos administrativos, resultando nos seguintes cenários:
@@ -25,7 +25,8 @@ Os cenários de carga foram definidos com base nos números de usuários ativos 
 
 ## 📊 Resultados dos Testes - Lighthouse
 
-⚠️ **D** para métricas em relação a Desktop e **M** para métricas em relação a Mobile.
+⚠️ **D** para métricas em relação a Desktop.
+⚠️ **M** para métricas em relação a Mobile.
 
 | Páginas | Desempenho (D)| Acessibilidade (D) | Boas Práticas (D) | SEO (D) | Desempenho (M) | Acessibilidade (M) | Boas Práticas (M) | SEO (M) |
 |--------------------|------------|----------------|---------------|-----|------------|----------------|---------------|-----|

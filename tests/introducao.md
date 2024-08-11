@@ -23,7 +23,7 @@ Fazendo a contextualização, a Universidade Federal Rural do Semi-Árido - UFER
 
 Assim, com a demanda a cada novo semestre pelo cadastro das reservas de salas, foi construído um sistema para agilizar tal ação. O sistema é simples, e apenas docentes e técnicos administrativos tem acesso direto a ele, porém discentes e pessoas externas têm acesso à visualização das reservas vinculadas às salas da instituição.
 
-Porém, como com todo software existe a necessidade de manutenção no sistema diante das novas demandas, assim, as informações dispostas a seguir têm como intuito servir como uma documentação que oferta uma visão sistemática e abrangente da execução de testes no sistema informado.
+Assim, as informações dispostas a seguir têm como intuito servir como uma documentação que oferta uma visão sistemática e abrangente da execução de testes no sistema informado.
 
 ## 📑 Plano de Teste
 **🎯 Escopo do Teste:** O teste abrangerá todas as funcionalidades principais do software, não se limitando apenas essas, mas incluindo:
@@ -50,6 +50,7 @@ Você também pode acessar cada roteiro individualmente em suas respectivas pág
 - [Teste Exploratórios](../tests/exploratório.md)
 - [Teste de Responsividade](../tests/responsividade.md)
 - [Teste de Desempenho](../tests/desempenho.md)
+- [Teste de Aceitação](../tests/aceitacao.md)
 
 Também estão disponíveis informações sobre as ferramentas utilizadas e configurações realizadas para os testes:
 - [Ferramentas e Configurações](../tests/ferramentas.md)
@@ -100,7 +101,7 @@ Os testes foram realizados entre `26/01/2024` e `22/06/2024`, envolvendo apenas 
 
 Durante o período de testes, foram utilizadas as seguintes metodologias: testes de sistema, testes de desempenho, teste de responsividade e testes exploratórios. A cobertura de testes alcançou `100%` das funcionalidades principais do sistema.
 
-Foram realizados aproximadamente `XXX` casos de teste durante as várias fases de teste. 
+Foram realizados aproximadamente `250` casos de teste durante as várias fases de teste. 
 
 Os testes foram conduzidos em um ambiente controlado, simulando condições reais do uso do sistema para garantir a confiabilidade nos resultados dos testes. 
 
@@ -114,6 +115,7 @@ Dessa forma, os principais resultados identificados durante o desenvolvimento do
   - **Problema 1:** Erro de validação na entrada de dados durante o registro de usuários e registro de reservas.
   - **Problema 2:** Lentidão na resposta de consultas em grande volume de dados.
   - **Problema 3:** Inconsistências na exibição da página de calendário em dispositivos móveis.
+  - **Problema 4:** Usabilidade identificada como "Ruim" diante da análise qualitativa.
 
 - **Recomendações:**
   - Refinar as validações de entrada para evitar erros durante o registro.
@@ -121,7 +123,11 @@ Dessa forma, os principais resultados identificados durante o desenvolvimento do
   - Implementar ajustes na renderização de elementos na interface para garantir consistência em todas as plataformas, principalmente em dispositivos mobile.
 
 ## 📝 Considerações Finais e Trabalhos Futuros
+Esse trabalho traz a importância de estratégias de testes tanto na documentação quanto de implantação para testes em um sistema \textit{web}, no quesito de caixa preta ou testes funcionais. Evidencia-se, que teste demanda tempo, sendo um processo complexo, porém de forma estruturada resulta em ganhos significativos.
 
+Sendo assim, visando a continuidade da pesquisa, pretende-se avaliar o \gls{SRS} na implantação de testes de segurança diante do gerenciamento de riscos e proteção das informações vinculados ao software. Análogo, para trabalhos futuros é relevante fazer o aprimoramento dos casos de testes para o sistema ficar sempre conexo perante as novas atualizações e interligação com os testes.
+
+Além disso, como sugestão do trabalho, um ponto importante seria tratar a responsividade do sistema, com um \textit{redesign}, visto os pontos citados nos resultados dos testes e identificados pelos usuários no questionário para as páginas de visualização das reservas, trazendo uma conquista positiva para a \gls{UFERSA} quanto à aceitação do sistema.
 
 ---
 [🔙 Voltar](../)

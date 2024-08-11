@@ -105,5 +105,21 @@ Cada caso de teste é identificado pelo título na seguinte forma: "[CT001] - Ba
 - **Problema identificado**: Status "indisponível" atribuído à sala "Sala Indisponível" sem funcionalidade no sistema.
 - **Severidade do problema**: Alta - Inconsistência e incoerência dos dados.
 
+### [CT012] - Sala com duas reservas ao mesmo tempo
+- **Descrição do teste**: Teste na funcionalidade visualização de reservas no calendário.
+
+![Erro Sala com duas reservas](../imgs/[CT012]-SalaComDuasReservas.jpeg)
+
+- **Problema identificado**: Sala registrada com duas reservas diferentes ao mesmo tempo.
+- **Severidade do problema**: Alta - Pode causar conflito de agendamento.
+
+### [CT013] - Botão de Busca
+- **Descrição do teste**: Teste na funcionalidade de consulta de reservas, no botão de busca (lupa).
+
+![Erro no Botão de Busca](../imgs/[CT013]-BotaoBuscar.png)
+
+- **Problema identificado**: O botão de busca ao clicar a primeira vez não funciona como esperado, é necessário ficar apertando por diversas outras vezes para que a funcionalidade realize a consulta.
+- **Severidade do problema**: Média - Pode gerar confusão para os usuários.
+
 ---
 [🔙 Voltar](../tests/introducao.md/#️-roteiro-de-teste)
