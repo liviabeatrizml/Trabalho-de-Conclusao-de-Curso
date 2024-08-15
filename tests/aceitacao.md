@@ -1,7 +1,7 @@
 # Testes de Aceitação
 
 ## 💡 Introdução
-Os testes de aceitação visa a identificação de experiência com erros e falhas diretamente validada pelo usuário, buscando identificar pontos específicos para o levantamento de melhoria.
+Os testes de aceitação visam a identificação de experiência com erros e falhas diretamente validadas pelo usuário, buscando identificar pontos específicos para o levantamento de melhoria.
 
 O formulário foi elaborado na ferramenta *Google Forms* e disponibilizado para os perfis alvos. O questionário apresenta um total de 27 questões, incluindo perguntas de múltipla escolha e perguntas abertas direcionada a cada perfil. 
 
@@ -9,9 +9,9 @@ Para a visualização do questionário na íntegra acesse [Questionário de Aval
 
 ## ❓ Questionário
 
-O questionário foi disponibilizado durante o período de um mês e meio nas datas de 03/06/2024 a 20/07/2024. Entretanto, é importante ressaltar que durante a disponibilidade do mesmo, ocorreu uma greve na instituição do dia 10/06 2024 até o dia 03/07/2024. 
+O questionário foi disponibilizado durante o período de um mês e meio nas datas de 03/06/2024 a 20/07/2024. Entretanto, é importante ressaltar que durante a disponibilidade do mesmo, ocorreu uma greve na instituição do dia 10/06/2024 até o dia 03/07/2024. 
 
-No total foram obtidas 117 respostas que concordaram em participar da pesquisa, sem nenhuma objeção. 
+No total foram obtidas 117 respondentes que concordaram em participar da pesquisa. 
 
 ## 📑 Roteiro da Coleta
 
@@ -27,7 +27,7 @@ As questões fechadas seguiam a escala de 1 a 5, onde:
 
 ### Análise Discentes
 
-Para a análise das coletas fechadas vinculadas aos discentes, foi utilizado a escala de usabilidade do inglês *System Usability Scale* onde cassifica se a usabilidade é boa, média, ruim e afins.
+Para a análise das questões fechadas vinculadas aos discentes, foi utilizada a escala de usabilidade do inglês *System Usability Scale* onde cassifica se a usabilidade é boa, média, ruim e afins.
 
 | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | SUS  |
 |----|----|----|----|----|----|----|----|----|-----|------|
@@ -62,7 +62,7 @@ Para a análise das coletas fechadas vinculadas aos discentes, foi utilizado a e
 | 2  | 4  | 2  | 0  | 4  | 4  | 4  | 2  | 3  | 2   | 67,5 |
 
 ### 📊 Resultado do SUS
-Posterior a análise, é feito o cálculo do SUS, onde obteve uma nota classificada como "RUIM" de usabilidade com pontuação de **65**, abaixo até mesmo da média padrão considerada de 68.
+Posterior à análise, é feito o cálculo do SUS, onde obteve uma nota classificada como "RUIM" de usabilidade com pontuação de **65**, abaixo até mesmo da média padrão considerada de 68.
 
 ### 🔍 Análise com as Heurísticas de Nielsen
 | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
@@ -111,7 +111,7 @@ A análise das heurísticas não incluiu cálculos específicos; em vez disso, f
 
 Para as questões abertas foi realizada a Teoria Fundamentada nos Dados (TFD) para a codificação das respostas.
 
-⚠️ Não será disponibilizado as questões abertas com as respostas dadas pelo usuário.
+⚠️ Não serão disponibilizadas as questões abertas com as respostas dadas pelo usuário.
 
 ### Discentes
 
