@@ -125,9 +125,9 @@ Dessa forma, os principais resultados identificados durante o desenvolvimento do
 ## 📝 Considerações Finais e Trabalhos Futuros
 Esse trabalho traz a importância de estratégias de testes tanto na documentação quanto de implantação para testes em um sistema \textit{web}, no quesito de caixa preta ou testes funcionais. Evidencia-se, que teste demanda tempo, sendo um processo complexo, porém de forma estruturada resulta em ganhos significativos.
 
-Sendo assim, visando a continuidade da pesquisa, pretende-se avaliar o \gls{SRS} na implantação de testes de segurança diante do gerenciamento de riscos e proteção das informações vinculados ao software. Análogo, para trabalhos futuros é relevante fazer o aprimoramento dos casos de testes para o sistema ficar sempre conexo perante as novas atualizações e interligação com os testes.
+Sendo assim, visando a continuidade da pesquisa, pretende-se avaliar o SRS na implantação de testes de segurança diante do gerenciamento de riscos e proteção das informações vinculados ao software. Análogo, para trabalhos futuros é relevante fazer o aprimoramento dos casos de testes para o sistema ficar sempre conexo perante as novas atualizações e interligação com os testes.
 
-Além disso, como sugestão do trabalho, um ponto importante seria tratar a responsividade do sistema, com um \textit{redesign}, visto os pontos citados nos resultados dos testes e identificados pelos usuários no questionário para as páginas de visualização das reservas, trazendo uma conquista positiva para a \gls{UFERSA} quanto à aceitação do sistema.
+Além disso, como sugestão do trabalho, um ponto importante seria tratar a responsividade do sistema, com um \textit{redesign}, visto os pontos citados nos resultados dos testes e identificados pelos usuários no questionário para as páginas de visualização das reservas, trazendo uma conquista positiva para a UFERSA quanto à aceitação do sistema.
 
 ---
 [🔙 Voltar](../)
