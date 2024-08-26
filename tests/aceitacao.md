@@ -17,7 +17,7 @@ No total foram obtidas 117 respondentes que concordaram em participar da pesquis
 
 As questões fechadas seguiam a escala de 1 a 5, onde:
 
-- 1 : Discordo totalemnte
+- 1 : Discordo totalmente
 - 2 : Discordo
 - 3 : Neutro
 - 4 : Concordo
@@ -27,7 +27,7 @@ As questões fechadas seguiam a escala de 1 a 5, onde:
 
 ### Análise Discentes
 
-Para a análise das questões fechadas vinculadas aos discentes, foi utilizada a escala de usabilidade do inglês *System Usability Scale* onde cassifica se a usabilidade é boa, média, ruim e afins.
+Para a análise das questões fechadas vinculadas aos discentes, foi utilizada a escala de usabilidade do inglês *System Usability Scale* onde cassifica se a usabilidade é boa, média, ruim e afins. A tabela apresentado contém um Filtro demonstrando apenas respostas de discentes que utilizam o sistema.
 
 | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | SUS  |
 |----|----|----|----|----|----|----|----|----|-----|------|
@@ -60,11 +60,14 @@ Para a análise das questões fechadas vinculadas aos discentes, foi utilizada a
 | 2  | 1  | 1  | 2  | 1  | 1  | 3  | 3  | 0  | 2   | 40   |
 | 2  | 1  | 1  | 2  | 2  | 1  | 2  | 2  | 2  | 2   | 42,5 |
 | 2  | 4  | 2  | 0  | 4  | 4  | 4  | 2  | 3  | 2   | 67,5 |
+---
+**Resultado SUS = 65**
 
 ### 📊 Resultado do SUS
 Posterior à análise, é feito o cálculo do SUS, onde obteve uma nota classificada como "RUIM" de usabilidade com pontuação de **65**, abaixo até mesmo da média padrão considerada de 68.
 
 ### 🔍 Análise com as Heurísticas de Nielsen
+
 | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
 |----|----|----|----|----|----|----|----|----|-----|
 | 4  | 4  | 3  | 3  | 3  | 4  | 3  | 4  | 4  | 4   |
@@ -107,6 +110,8 @@ Posterior à análise, é feito o cálculo do SUS, onde obteve uma nota classifi
 
 A análise das heurísticas não incluiu cálculos específicos; em vez disso, foi utilizada a média aritmética. Cenários foram classificados com base na média: resultados neutros e negativos foram identificados como áreas que precisam de melhorias, enquanto resultados superiores a 4 foram considerados positivos.
 
+Dessa forma, os resultados que tiveram mais destaque foram nas heurísticas de "Ajuda e Documentação", "Prevenção de Erros" e "Minimizar a carga de memória do usuário". Na heurística de "Ajuda e Documentação" cerca de 57,1% marcaram negativamente a pergunta, sendo assim, fica evidente que o sistema não tem mecanismos que auxiliem os usuários a meios de ajuda. Seguinte, na heurística de "Prevenção a Erros" mesmo que em sua maioria os usuários noticiaram o neutro, os demais, cerca de 37,2% consideraram negativamente a questão, fazendo com que a heurística informada deva ser revisada. Por fim, na heurística de "Minimizar a carga de memória do usuário" não obteve nenhuma resposta de discordo totalmente, tendo apenas 5 respostas de discordo, sendo assim, a heurística é empregada no sistema de corretamente.
+
 ## 🔍 Análise Questões Abertas
 
 Para as questões abertas foi realizada a Teoria Fundamentada nos Dados (TFD) para a codificação das respostas.
@@ -127,6 +132,7 @@ Para as questões abertas foi realizada a Teoria Fundamentada nos Dados (TFD) pa
 |                         | Correspondência ao mundo real | COD05   | O sistema não é atualizado                                       | 2          |
 
 #### Como você acha que o SRS poderia ser melhorado para atender às suas necessidades?
+
 | Categoria      | Subcategoria | Códigos | Descrição                                                                | Ocorrência |
 |----------------|--------------|---------|--------------------------------------------------------------------------|------------|
 | Funcionalidade |              | CODNA   | Não corresponde ao que foi perguntado                                    | 6          |
