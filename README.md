@@ -1,5 +1,5 @@
 # Trabalho de Conclusão de Curso
-> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima para a graduação do curso de Bacharelado em Tecnologia da Informação orientada pelo professor doutor Alysson Filgueira Milanez. Acesse o site: [TCC - Lívia](https://liviabeatrizml.github.io/Trabalho-de-Conclusao-de-Curso/).
+> Este repositório é dedicado ao armazenamento dos artefatos produzidos durante o desenvolvimento do Trabalho de Conclusão de Curso (TCC) da autora Lívia Beatriz Maia de Lima para a graduação do curso de Bacharelado em Tecnologia da Informação orientada pelo professor doutor Alysson Filgueira Milanez.
 
 ## 🧩 Estrutura do Repositório
 
@@ -22,6 +22,11 @@ Esta seção aborda o planejamento e descrição dos testes automatizados aborda
 
 ## [Códigos-fonte](/src/codigo-fonte.md)
 Contém todos os scripts e arquivos relacionados aos testes automatizados do sistema.
+
+## 🔗 Links Úteis
+
+- [Apresentação](https://github.com/liviabeatrizml/Trabalho-de-Conclusao-de-Curso/blob/main/docs/Apresentacao_TCC.pdf)
+- [Site](https://liviabeatrizml.github.io/Trabalho-de-Conclusao-de-Curso/).
 
 ---
 
